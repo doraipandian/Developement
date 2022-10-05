@@ -1,0 +1,31 @@
+<!-- include header -->
+<%- include('include/_header') %>
+<!-- /include header -->
+
+<!-- Main Site -->
+<main id="site-main">
+    <div class="container">
+        <div class="flex-container">        
+            <div class="flex-child sub-container-left">         
+                <a href="#" onclick="return false;"><img src="img/rectangle.png" class="image-link-left"/></a>
+            </div>            
+            <div class="flex-child sub-container-right">
+                <div class="form-title text-center">
+                    <span class="welcome-text">Welcome Back!</span><br/>
+                    <span class="form-description">Please enter your email address and password</span>
+                </div>
+                <div class="form-section" style="padding: 30px;">                    
+                    <!-- include login form -->
+                    <%- include('include/_login_form') %>
+                    <!-- /include login form -->
+                </div>
+                <div class="no-account-signup">Don't have an account? <a href="#">Signup</a></div>
+            </div>
+        </div>
+    </div>
+</main>
+<!-- /Main Site -->
+
+<!-- include footer -->
+<%- include('include/_footer') %>
+<!-- /include footer -->
